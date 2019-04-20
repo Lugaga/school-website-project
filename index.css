@@ -1,0 +1,69 @@
+*{
+  overflow-x:hidden;
+  margin:2px;
+}
+.responsive
+{
+  height:auto;
+  width:100%;
+}
+
+.container
+{
+  position:relative;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background-image:url("http://images5.fanpop.com/image/photos/31800000/MacKenzie-High-School-Biology-Class-amber-the-penguin-31817475-1563-900.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+body
+{
+  font-size:1.3em;
+  font-family:"work sans",sans-serif;
+}
+nav
+{
+  margin:0 auto;
+  padding:0.1% 0;
+  margin-right:0;
+}
+nav>ul
+{
+  text-align:right;
+}
+ul>li
+{
+display:inline-block;
+}
+nav ul li a {
+    text-transform:uppercase;
+    padding: 0%;
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.733);
+
+}
+  ul>li>a:hover {
+    box-shadow: 0 0 0 0.625em rgba(0, 0, 0, 0.1), insert 0 0 0.625em rgba(255, 255, 255, 0.6);
+    background-color: rgba(107, 93, 84, 0.678);
+    color: rgba(0, 350, 122, 0.7);
+}
+h3
+{
+  color:#ffffff;
+}
+h2
+{
+  color:#006400;
+}
+p
+{
+  color:#ffffff;
+  margin:2px;
+}
+li
+{
+  color:#006400;
+}
